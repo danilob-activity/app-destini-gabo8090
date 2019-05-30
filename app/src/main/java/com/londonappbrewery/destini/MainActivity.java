@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             mT2_Ans1.setChildStory(mT3);
             mT2_Ans2.setChildStory(mT4);
 
+
             
         if(savedInstanceState!=null) {
             mStorySelected = (Story) savedInstanceState.getSerializable("StoryKey");
